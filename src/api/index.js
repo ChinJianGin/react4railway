@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const URL = "https://web-production-d810.up.railway.app"
+const URL = "https://web-production-d810.up.railway.app/api/article"
 
 export const getArticleById = async ({ queryKey }) => {
 	const [articleId] = queryKey;
